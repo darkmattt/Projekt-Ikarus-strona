@@ -9,10 +9,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    /* background-image: url(BackgroundBasic\ moreSpace2.png);
-    background-size: 100%; */
-    /* background-image: linear-gradient(to right, #040f53, #15455b ); */
-    background-image: radial-gradient(black, #30d5c8, white);
+    background-image: linear-gradient(to right, #040f53, #15455b );
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
@@ -110,7 +107,7 @@ p {
 /* Media */
 @media only screen and (min-width: 1000px){
     body {
-        font-size: 22px;
+        font-size: 27px;
     }
     #pasek {
         height: 175px;
