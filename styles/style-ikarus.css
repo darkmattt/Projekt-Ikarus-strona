@@ -35,6 +35,7 @@ body {
     font-family: IkarusowaCzcionka, 'Times New Roman';
     color: #fff;
     text-align: center;
+    transition: 0.2718s;
 }
 #mainTitle {
     flex: 3 0 1px;
@@ -64,17 +65,20 @@ body {
 }
 img {
     width: 500px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 a {
     color:#0af;
     text-decoration: none;
+    transition: 0.2718s;
 }
 a:hover {
     color:#e00;
+    transition: 0.2718s;
 }
 a img:hover{
     box-shadow: 0px 0px 25px 10px #e00;
+    transition: 0.2718s;
 }
 h2 {
     text-align: center;
@@ -104,6 +108,53 @@ p {
     font-family: IkarusowaCzcionka, 'Times New Roman';
     flex: 0 0 100%;
 }
+/* O zespole */
+.about-parent {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    height: 500px;
+}
+.about-text {
+    flex: 0 1 100%;
+}
+.about-img-div {
+    flex: 0 3 100%;
+}
+.about-img {
+    object-fit: cover;
+    height: 100%;
+    border-radius: 360px;
+}
+/* Sociale */
+.social-parent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.social-child {
+    flex: 0 1 275px;
+    border-radius: 10px;
+    background-image: linear-gradient(to left,#040f53, #15455b);
+    border: 2px solid #0af;
+    background: linear-gradient(#0000, rgb(0 0 0/40%)) top/100% 800%;
+    transition: 0.314s;
+    height: 65px;
+    color: #fff;
+}
+.social-child:hover {
+    border: 2px solid #e00;
+    box-shadow: -5px -5px 25px 10px #e00;
+    background-position: bottom;
+    color: #fff;
+}
+.social-img {
+    height: 40px;
+    width: auto;
+}
+.social-ghostdiv {
+    flex: 4 0 20px;
+}
 /* Media */
 @media only screen and (min-width: 1000px){
     body {
@@ -127,9 +178,11 @@ p {
     }
     #logo {
         max-width: 300px;
+        border: 2px solid #018;
     }
     #logo:hover {
-        box-shadow: 0px 0px 25px 10px #e00;        
+        box-shadow: inset 0px 0px 15px 5px #e00, 0px 0px 15px 5px #e00;
+        border: 2px solid #e00;
     }
     #antylogo {
         display: initial;
@@ -142,5 +195,8 @@ p {
     }
     .tekstWTabeli {
         flex: 1 1 30%;
+    }
+    .social-child {
+        font-size: 22px;
     }
 }
