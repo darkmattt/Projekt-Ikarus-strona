@@ -1,6 +1,6 @@
 /* CSS Ikarus */
 
-@font-face { font-family: IkarusowaCzcionka; src: url("squares-bold-free.otf"); } 
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -32,7 +32,7 @@ body {
     scroll-margin-top: 190px;
 }
 #h1 {
-    font-family: IkarusowaCzcionka, 'Times New Roman';
+    font-family: "Saira Stencil One", sans-serif;
     color: #fff;
     text-align: center;
     transition: 0.2718s;
@@ -85,7 +85,7 @@ a img:hover{
 h2 {
     text-align: center;
     font-size: 60px;
-    font-family: IkarusowaCzcionka, 'Times New Roman';
+    font-family: "Saira Stencil One", sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
     border-top: 3px dashed #0af;
@@ -107,7 +107,7 @@ p {
 .tekstWTabeli {
     text-align: center;
     font-size: 40px;
-    font-family: IkarusowaCzcionka, 'Times New Roman';
+    font-family: "Saira Stencil One", sans-serif;
     flex: 0 0 100%;
 }
 /* O zespole */
