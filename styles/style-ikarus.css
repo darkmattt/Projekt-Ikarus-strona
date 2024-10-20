@@ -17,7 +17,7 @@ body {
 /* Pasek */
 #pasek {
     overflow: hidden;
-    background-color: #018;
+    background-color: #040e53;
     position: fixed; 
     top: 0;
     left: 0;
@@ -174,12 +174,12 @@ p {
     body {
         font-size: 27px;
     }
+    .targetLink {
+        scroll-margin-top: 200px;
+    }
     #pasek {
         height: 175px;
         gap: 40px;
-    }
-    .targetLink {
-        scroll-margin-top: 200px;
     }
     #h1 {
         font-size: 60px;
@@ -192,7 +192,7 @@ p {
     }
     #logo {
         max-width: 300px;
-        border: 2px solid #018;
+        border: 2px solid transparent;
     }
     #logo:hover {
         box-shadow: inset 0px 0px 15px 5px #e00, 0px 0px 15px 5px #e00;
@@ -203,7 +203,7 @@ p {
         margin-right: 20px;
     }
     #strona {
-        margin-top: 10%;
+        margin-top: 200px;
         margin-left: 11%;
         margin-right: 11%;
     }
