@@ -29,7 +29,7 @@
 </head>
 
 <body>
-    <a id="pasek" href="#">
+    <a id="pasek" href="index.html">
         <div id="logoDiv"><img id="logo" src="img/logo-ikarus-alfa.png"></div>
         <div id="mainTitle">
             <h1 id="h1">PROJEKT IKARUS</h1>
@@ -59,12 +59,20 @@
                 <img class="social-img" src="img/github.png">
                 GitHub
             </a>
-            <a class="social-child" href="/links.html">
-                <img class="social-img" src="img/links.png">
-                Zbiór linków
-            </a>
+            <button class="social-child" id="przyciskEmail">
+                <img class="social-img" src="img/mail.jpg">
+                <p id="email">E-mail</p>
+            </button>
         </div>
     </div>
+
+    <script>
+        const adresEmail = document.getElementById("email")
+        const przyciskEmail = document.getElementById("przyciskEmail")
+        przyciskEmail.addEventListener("click", function(){
+            adresEmail.textContent = "Projekt-Ikarus@protonmail.com"
+        })
+    </script>
 
 </body>
 

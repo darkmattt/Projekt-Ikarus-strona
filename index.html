@@ -116,7 +116,7 @@
                 </p>
             </div>
             <div class="about-img-div">
-                <img class="about-img" src="img/macius.png">
+                <img class="about-img" src="img/macius2.jpg">
             </div>
         </div>
         <br>
@@ -170,7 +170,7 @@
                 </p>
             </div>
             <div class="about-img-div">
-                <img class="about-img" src="img/dawidek.jpg" style="object-position: 50% 50%;">
+                <img class="about-img" src="img/dawidek.jpg">
             </div>
         </div>
         <br>
@@ -250,39 +250,42 @@
         <h2 id="link-contact" class="targetLink">Gdzie nas spotkać?</h2>
         <br>
         <div class="social-parent">
-            <a class="social-child" href="index.html">
-                <img class="social-img" src="img/internet.jpg">
-                Strona internetowa
-            </a>
-            <div class="social-ghostdiv"></div>
+            <button class="social-child" id="przyciskEmail">
+                <img class="social-img" src="img/mail.jpg">
+                <p id="email">E-mail</p>
+            </button>
             <a class="social-child" href="https://www.tiktok.com/@projekt_ikarus0">
                 <img class="social-img" src="img/tiktok.avif">
                 TikTok
             </a>
-            <div class="social-ghostdiv"></div>
             <a class="social-child" href="https://www.instagram.com/projekt.ikarus/">
                 <img class="social-img" src="img/instagram.png">
                 Instagram
             </a>
-            <div class="social-ghostdiv"></div>
             <a class="social-child" href="https://www.facebook.com/profile.php?id=61566994124528&is_tour_dismissed">
                 <img class="social-img" src="img/facebook.png">
                 Facebook
             </a>
-            <div class="social-ghostdiv"></div>
             <a class="social-child" href="https://github.com/ctr-alt-f3">
                 <img class="social-img" src="img/github.png">
                 GitHub
             </a>
-            <div class="social-ghostdiv"></div>
             <a class="social-child" href="links.html">
                 <img class="social-img" src="img/links.png">
                 Zbiór linków
             </a>
-            <div class="social-ghostdiv"></div>
         </div>
         <br><br>
     </div>
+    
+    <script>
+        const adresEmail = document.getElementById("email")
+        const przyciskEmail = document.getElementById("przyciskEmail")
+        przyciskEmail.addEventListener("click", function(){
+            adresEmail.textContent = "Projekt-Ikarus@protonmail.com"
+        })
+    </script>
+
 </body>
 
 </html>
